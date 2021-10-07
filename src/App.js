@@ -3,7 +3,11 @@ import { ethers } from 'ethers';
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 import './App.css';
 
-const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+// Local hardhat testnet
+// const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+
+// Ropsten testnet
+const contractAddress = "0x481522aefE0743bD45ccb4d3dEBc538fB8481679";
 
 function App() {
   const [inputVal, setInputVal] = useState('');
